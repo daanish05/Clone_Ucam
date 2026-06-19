@@ -41,7 +41,7 @@ export default function Home(){
 
                                             <div className="col-lg-6">
                                                 <div className="relative">
-                                                    <Image src="/images/products/1.webp" className="w-100 relative z-2" alt="" width={300} height={200} />
+                                                    <Image src="/images/products/1.webp" className="w-100 relative z-2" alt="" width={300} height={200} style={{ height: "auto" }} />
                                                     <div className="abs w-70 h-70 abs-centered"></div>
                                                 </div>
                                             </div>
@@ -73,7 +73,7 @@ export default function Home(){
 
                                             <div className="col-lg-6">
                                                 <div className="relative">
-                                                    <Image src="/images/products/2.webp" className="w-100 relative z-2" alt=""width={300} height={200} />
+                                                    <Image src="/images/products/2.webp" className="w-100 relative z-2" alt=""width={300} height={200} style={{ height: "auto" }} />
                                                     <div className="abs w-70 h-70 abs-centered"></div>
                                                 </div>
                                             </div>
@@ -103,7 +103,7 @@ export default function Home(){
 
                                             <div className="col-lg-6">
                                                 <div className="relative">
-                                                    <Image src="/images/products/3.webp" className="w-100 relative z-2" alt=""width={300} height={200} />
+                                                    <Image src="/images/products/3.webp" className="w-100 relative z-2" alt=""width={300} height={200} style={{ height: "auto" }}/>
                                                     <div className="abs w-70 h-70 abs-centered"></div>
                                                 </div>
                                             </div>
