@@ -1,28 +1,38 @@
-import Navbar from "../components/Navbar";
+
+
+
+
 import Script from "next/script";
-
-
+import ScriptLoader from "./components/ScriptLoader";
 
 export default function RootLayout({ children }) {    
     return(
         <>
         <html lang="en">
             <head>
-                <link rel="stylesheet" href="/css/style.css" />
-                <link rel="stylesheet" href="/css/coloring.css"/> 
-                {/* <link rel="stylesheet" href="/css/swiper.css"/>  */}
-                {/* <link rel="stylesheet" href="/css/plugin.css"/>  */}
-                <link rel="stylesheet" href="/css/bootstrap.min.css"/> 
-                <link rel="stylesheet" href="/css/colors/scheme-01.css"/> 
+         <link
+    href="css/bootstrap.min.css"
+    rel="stylesheet"
+    type="text/css"
+    id="bootstrap"
+  />
+  <link href="css/plugins.css" rel="stylesheet" type="text/css" />
+  <link href="css/swiper.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+  <link
+    id="colors"
+    href="css/colors/scheme-01.css"
+    rel="stylesheet"
+    type="text/css"
+  />
             </head>
             <body>
-                <Navbar />
+
                 {children}
-                <script src="/js/custom-marquee.jsx" strategy="afterInteractive" />
-                <script src="/js/custom-swiper-1.jsx"strategy="afterInteractive" />
-                <script src="/js/designesia.jsx" strategy="afterInteractive"/>
-                <script src="/js/swiper.jsx" strategy="afterInteractive" />
-                <script src="/js/vendors.jsx" strategy="afterInteractive" />
+                <Script src="js/vendors.js" strategy="beforeInteractive" />
+                <Script src="js/swiper.js" strategy="beforeInteractive" />
+                <ScriptLoader />
             </body>
         </html>
         </>

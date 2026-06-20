@@ -97,7 +97,7 @@ h1.s2 .c1 span,
 .owl-dot.active,
 body::-webkit-scrollbar-thumb,#de_modal::-webkit-scrollbar-thumb
  {
-    background: var(--primary-color);
+    background:var(--primary-color);
 }
 ::-moz-selection { /* Code for Firefox */
     color:#ffffff;
@@ -265,7 +265,7 @@ section.dark {
 
 .feature-box-group .d-card i,
 .accordion-section-title.active,
-.accordion.secondary .accordion-section-title:before,
+.accordion.secondary .accordion-section-title:before
 .d-card i {
     background: var(--secondary-color);
 }
