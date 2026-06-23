@@ -12372,7 +12372,7 @@ img {
   .title-text,
   h1.slider-title,
   h2.slider-title{
-    font-size: 32px;
+    font-size: 27px;
     letter-spacing: -1.25px;
   }
 
@@ -12578,3 +12578,73 @@ img {
     width: auto;
   }
 }
+
+/* Manually changes in main menu */
+
+
+@media (max-width:768px){
+
+    section:first-child{
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .swiper{
+        position: relative !important;
+        height: 100vh !important;
+        min-height: 100vh !important;
+    }
+
+    .swiper-wrapper{
+        height: 100vh !important;
+    }
+
+    .swiper-slide{
+        height: 100vh !important;
+    }
+
+    .swiper-inner{
+        position: absolute !important;
+        inset: 0;
+    }
+
+    .sw-caption{
+        position: absolute !important;
+        top: 55% !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+/* 
+@media (max-width: 991px) {
+
+    .sw-caption{
+        position: relative !important;
+        top: 0 !important;
+        transform: none !important;
+        padding-top: 120px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .swiper,
+    .swiper-slide,
+    .swiper-wrapper{
+        height: auto !important;
+        min-height: 100vh !important;
+    }
+
+    .swiper-inner{
+        position: relative !important;
+        height: auto !important;
+    }
+
+    .v-center{
+        min-height: auto !important;
+        display: block !important;
+    }
+
+    h1.cam-style{
+        font-size: 42px !important;
+        line-height: 1.2 !important;
+    }
+} */

@@ -20,7 +20,7 @@ const carousel = () => {
                       data-300="opacity:0"
                     >
                       <div className="row align-items-center g-4">
-                        <div className="col-lg-6">
+                        <div className="col-md-12 col-lg-6">
                           <div className="relative z-2">
                             <h3
                               className="subtitle s2 mb-3 wow fadeInUp"
@@ -50,7 +50,7 @@ const carousel = () => {
                             </Link>
                           </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-12 col-lg-6">
                           <div className="relative">
                             <img
                               src="/images/products/1.webp"
@@ -79,7 +79,7 @@ const carousel = () => {
                       data-300="opacity:0"
                     >
                       <div className="row align-items-center g-4">
-                        <div className="col-lg-6">
+                        <div className="col-md-12 col-lg-6">
                           <div className="relative z-2">
                             <h3
                               className="subtitle s2 mb-3 wow fadeInUp"
@@ -109,7 +109,7 @@ const carousel = () => {
                             </Link>
                           </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-12 col-lg-6">
                           <div className="relative">
                             <img
                               src="/images/products/2.webp"
@@ -138,7 +138,7 @@ const carousel = () => {
                       data-300="opacity:0"
                     >
                       <div className="row align-items-center g-4">
-                        <div className="col-lg-6">
+                        <div className="col-md-12 col-lg-6">
                           <div className="relative z-2">
                             <h3
                               className="subtitle s2 mb-3 wow fadeInUp"
@@ -168,7 +168,7 @@ const carousel = () => {
                             </Link>
                           </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-md-12 col-lg-6">
                           <div className="relative">
                             <img
                               src="/images/products/3.webp"

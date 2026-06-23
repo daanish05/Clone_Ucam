@@ -52,8 +52,7 @@ const About = () =>{
               data-wow-delay=".2s"
             >
               <div className="relative bg-grey p-40 h-100">
-                <img
-                  src="images/svg-color/networking.svg"
+                <img src="/images/svg-color/networking.svg"
                   className="w-70px mb-3"
                   alt=""
                 />
