@@ -3,7 +3,7 @@ import Link from "next/link";
 const carousel = () => {
     return(
         <>
-        <section className="text-light no-top no-bottom position-relative overflow-hidden z-1000">
+        <section className="text-light no-top no-bottom position-relative">
           <div className="v-center">
             <div className="swiper">
               {/* Additional required wrapper */}

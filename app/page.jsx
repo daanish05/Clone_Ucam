@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Image from "next/image";
+
 import { Header, 
   Footer, 
   About, 
@@ -9,7 +8,6 @@ import { Header,
   Querys, 
   StayUpdate,
   Carousel} from "./components";
-// import overlay from "./components/overlay";
 
 
 export default function Home(){
