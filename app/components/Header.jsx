@@ -45,9 +45,9 @@ const Header = () => {
                             <div className="de-flex-col">
                                 <div id="logo">
                                     <Link href="/">
-                                    <Image className="logo-main" src="/images/logo.webp" alt="" width={150} height={30} />
-                                    <Image className="logo-scroll" src="/images/logo.webp" alt="" width={150} height={30} />
-                                    <Image className="logo-mobile" src="/images/logo.webp" alt="" width={150} height={30} />
+                                    <img className="logo-main" src="/images/logo.webp" alt=""  />
+                                    <img className="logo-scroll" src="/images/logo.webp" alt=""  />
+                                    <img className="logo-mobile" src="/images/logo.webp" alt=""     />
                                     </Link>
                                 </div>
                             </div>
@@ -145,7 +145,7 @@ const Header = () => {
                                 <Link className="btn-main btn-line fx-slide" href="contact.html"><span>Get a Free Quote</span></Link>
                                 <span id="menu-btn"></span>
                                 <div id="btn-extra" className="img">
-                                    <Image src="/images/ui/dots.svg" className="" alt="" width={24} height={24}/>
+                                    <img src="/images/ui/dots.svg" className="" alt=""  />
                                 </div>
                             </div>
                         </div>
@@ -158,3 +158,4 @@ const Header = () => {
 }
 
 export default Header;
+    

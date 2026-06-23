@@ -6,5 +6,5 @@ export { default as Choose } from "./Choose";
 export { default as Testimonials } from "./Testimonials";
 export { default as Querys } from "./Querys";
 export { default as StayUpdate } from "./Update";
-export { default as carousel } from "./carousel";
+export { default as Carousel } from "./carousel";
 export { default as ScriptLoader } from "./ScriptLoader";

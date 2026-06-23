@@ -53,13 +53,13 @@ Table of content:
 
 /* ================================================== */
 
-/* @import url("../fonts/fontawesome4/css/font-awesome.css"); */
-/* @import url("../fonts/fontawesome6/css/fontawesome.css"); */
-/* @import url("../fonts/fontawesome6/css/brands.css"); */
-/* @import url("../fonts/fontawesome6/css/solid.css"); */
-/* @import url("../fonts/elegant_font/HTML_CSS/style.css"); */
-/* @import url("../fonts/et-line-font/style.css"); */
-/* @import url("../fonts/icofont/icofont.min.css"); */
+@import url("../fonts/fontawesome4/css/font-awesome.css");
+@import url("../fonts/fontawesome6/css/fontawesome.css");
+@import url("../fonts/fontawesome6/css/brands.css");
+@import url("../fonts/fontawesome6/css/solid.css");
+@import url("../fonts/elegant_font/HTML_CSS/style.css");
+@import url("../fonts/et-line-font/style.css");
+@import url("../fonts/icofont/icofont.min.css");
 
 * {
   --heading-font: "Orbitron", Helvetica, Arial, sans-serif;  
@@ -12372,8 +12372,8 @@ img {
   .title-text,
   h1.slider-title,
   h2.slider-title{
-    font-size: 48px;
-    letter-spacing: -2px;
+    font-size: 32px;
+    letter-spacing: -1.25px;
   }
 
   h2{
