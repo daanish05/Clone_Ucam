@@ -1310,7 +1310,7 @@
          // btn arrow down
          jQuery(".arrow-down").on("click", function() {
              jQuery("#hide-content").fadeOut("slow", function() {
-                 jQuery(".coming-soon .coming-soon-content").fadeIn(800, function() {
+                 jQuery(".coming-soon            .coming-soon-content").fadeIn(800, function() {
                      jQuery('.arrow-up').animate({
                          'bottom': '0px'
                      }, "slow");

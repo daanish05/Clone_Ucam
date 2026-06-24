@@ -45,12 +45,12 @@ const Header = () => {
                             <div className="de-flex-col">
                                 <div id="logo">
                                     <Link href="/">
-                                    {/* <img className="logo-main" src="/images/Jetforce-logo.png"alt=""  /> */}    
-                                    <img className="logo-main" src="/images/logo.webp"alt=""  />
-                                    {/* <img className="logo-scroll" src="/images/Jetforce-logo.png"alt=""  /> */}
-                                    <img className="logo-scroll" src="/images/logo.webp"alt=""  />
-                                    {/* <img className="logo-mobile" src="/images/Jetforce-logo.png" alt="" /> */}
-                                    <img className="logo-mobile" src="/images/logo.webp" alt="" />
+                                    <img className="logo-main" src="/images/Jetforce-logo.png"alt=""  />    
+                                    {/* <img className="logo-main" src="/images/logo.w  ebp"alt=""  /> */}
+                                    <img className="logo-scroll" src="/images/Jetforce-logo.png"alt=""  />
+                                    {/* <img className="logo-scroll" src="/images/logo.webp"alt=""  /> */}
+                                    <img className="logo-mobile" src="/images/Jetforce-logo.png" alt="" />
+                                    {/* <img className="logo-mobile" src="/images/logo.webp" alt="" /> */}
                                     </Link>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const Header = () => {
                                         <Link className="menu-item" href="/">
                                         Home
                                         </Link>
-                                        <ul className="mega">
+                                        {/* <ul className="mega">
                                             <li>
                                                 <div className="container">
                                                     <div className="sb-menu p-4">
@@ -117,28 +117,28 @@ const Header = () => {
                                                     </div>
                                                 </div>                                                
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li><Link className="menu-item" href="services.html">
                                     Services</Link >
-                                        <ul>
+                                        {/* <ul>
                                             <li><Link className="menu-item" href="services.html">All Services 1
                                             </Link></li>
                                             <li><Link className="menu-item" href="services-2.html">All Services 2
                                             </Link></li>
                                             <li><Link className="menu-item" href="service-single.html">Service Single
                                             </Link></li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li><Link className="menu-item" href="brands.html">Brands</Link></li>
                                     <li><Link className="menu-item" href="projects.html">Projects</Link></li>  
-                                    <li><Link className="menu-item" href="blog.html">Blog</Link>
+                                    {/* <li><Link className="menu-item" href="blog.html">Blog</Link>
                                         <ul>
                                             <li><Link className="menu-item" href="blog.html">Blog Default</Link></li>
                                             <li><Link className="menu-item" href="blog-2.html">Blog Style 2</Link></li>
                                             <li><Link className="menu-item" href="blog-single.html">Blog Single</Link></li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li><Link className="menu-item" href="contact.html">Contact</Link></li>
                                 </ul>
                             </div>
@@ -147,9 +147,9 @@ const Header = () => {
                                 </div>
                                 <Link className="btn-main btn-line fx-slide" href="contact.html"><span>Get a Free Quote</span></Link>
                                 <span id="menu-btn"></span>
-                                <div id="btn-extra" className="img">
+                                {/* <div id="btn-extra" className="img">
                                     <img src="/images/ui/dots.svg" className="" alt=""  />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
