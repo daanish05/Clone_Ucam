@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="row gx-5">
           <div className="col-lg-4 col-sm-6">
-            <Image src="/images/jetforce-logo.webp" className="w-150px" alt="JetForce Logo" width={150} height={40} />
+            <Image src="/images/Jetforce-Logo.webp" className="w-150px" alt="JetForce Logo" width={150} height={40} />
             <div className="spacer-20" />
             <p>
               Keep your home or business safe with CCTV systems designed to
