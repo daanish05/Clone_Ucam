@@ -45,9 +45,9 @@ const Header = () => {
                             <div className="de-flex-col">
                                 <div id="logo">
                                     <Link href="/">
-                                    <Image className="logo-main" src="/images/Jetforce-logo.webp"alt=""  />
-                                    <Image className="logo-scroll" src="/images/Jetforce-logo.webp"alt=""  />
-                                    <Image className="logo-mobile" src="/images/Jetforce-logo.webp" alt="" />
+                                    <Image className="logo-main" src="/images/Jetforce-Logo.webp"alt="JetForce logo"  />
+                                    <Image className="logo-scroll" src="/images/Jetforce-Logo.webp"alt="JetForce logo"  />
+                                    <Image className="logo-mobile" src="/images/Jetforce-Logo.webp" alt="JetForce logo" />
                                     </Link> 
                                 </div>
                             </div>
