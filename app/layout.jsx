@@ -5,7 +5,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
-                <link rel="icon" href="/images/icon.webp" type="image/webp" />
+                <link rel="icon" href="/images/Jetforce-icon.webp" type="image/webp" />
                 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
                 <link href="css/plugins.css" rel="stylesheet" type="text/css" />
                 <link href="css/swiper.css" rel="stylesheet" type="text/css" />
